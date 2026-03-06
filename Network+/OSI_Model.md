@@ -137,6 +137,43 @@ Access points: Provide wireless network access
 Media converters: Convert fiber ↔ Ethernet signals
 
 ------
-Layer 2 - Data link layer
+Layer 2 – Data Link Layer
 
+Packages bits from Layer 1 into frames and ensures reliable data transfer on the local network.
+
+Data Unit
+
+Frame — structured data packet
+
+*Functions
+
+Framing — bits → frames
+
+MAC addressing — device identification
+
+Error detection — detect corrupted frames
+
+Flow control — control data rate
+
+*MAC Address
+
+48-bit physical address — unique hardware ID
+
+First 24 bits → manufacturer — vendor identifier
+
+Last 24 bits → device — unique device ID
+
+*Devices
+
+NIC — network connection card
+
+Bridge — connect network segments
+
+Switch — intelligent LAN device
+
+Switch
+
+Uses CAM table — MAC-to-port mapping
+
+Forwards frames based on MAC address — targeted frame delivery
 
