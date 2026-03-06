@@ -81,3 +81,57 @@ Cable unplugging, hardware tampering.
 
 SOC view:
 Physical access alerts and outages.
+
+
+
+----------
+OSI model or OSI reference model is used to categorize the functions of a network, Useful for troubleshooting, operates under tcp/ip model
+7- Application - Data 
+6- Presentation - Data 
+5- Session - Data 
+4- Transmission - Segments 
+3- Network - Packets 
+2- data link - Frames 
+1- Physical - Bits 
+
+-------------
+
+Layer 1 – Physical
+Purpose
+Transmission of bits across the network, using cat5 or 6
+
+*Data:
+Binary bits (1s and 0s) 
+*Signals:
+Copper = voltage 0=0v, 1=+5/-5
+Fiber = light 1=light on, 0=lighht off
+*Connectors: RJ-45:Ethernet cable connector
+*Cable Standards
+568A: Ethernet wiring standard -           GBRB - Green, Blue, Red, Black
+568B: Alternate Ethernet wiring standard   RBGB - Red, Blue, Green, Black
+Crossover cables – TIA/EIA-568A on one end, and TIA/EIA-568B on the other end
+Straight-through cables – TIA/EIA-568B on both ends
+*Topologies
+Bus: Single shared cable
+Ring: Devices in circular path
+Star: Devices connected to central switch
+Mesh: Devices interconnected for redundancy
+
+Asynchronons: sender wait for the reciever(voice note)
+Synchronous: use reference clock(on a call )
+baseband: Entire bandwidth used by one signal Example: Ethernet
+broadband:Bandwidth divided into channels Example: cable TV
+
+*Multiplexing
+TDM: Fixed time slots for signals
+StatTDM: Dynamic time slot allocation
+FDM: Different frequency channels
+*infrastructure Devices
+Hubs: Repeat signals to all ports
+Access points: Provide wireless network access
+Media converters: Convert fiber ↔ Ethernet signals
+
+------
+Layer 2 - Data link layer
+
+
