@@ -102,15 +102,19 @@ Transmission of bits across the network, using cat5 or 6
 
 *Data:
 Binary bits (1s and 0s) 
+
 *Signals:
 Copper = voltage 0=0v, 1=+5/-5
 Fiber = light 1=light on, 0=lighht off
+
 *Connectors: RJ-45:Ethernet cable connector
+
 *Cable Standards
 568A: Ethernet wiring standard -           GBRB - Green, Blue, Red, Black
 568B: Alternate Ethernet wiring standard   RBGB - Red, Blue, Green, Black
 Crossover cables – TIA/EIA-568A on one end, and TIA/EIA-568B on the other end
 Straight-through cables – TIA/EIA-568B on both ends
+
 *Topologies
 Bus: Single shared cable
 Ring: Devices in circular path
@@ -126,6 +130,7 @@ broadband:Bandwidth divided into channels Example: cable TV
 TDM: Fixed time slots for signals
 StatTDM: Dynamic time slot allocation
 FDM: Different frequency channels
+
 *infrastructure Devices
 Hubs: Repeat signals to all ports
 Access points: Provide wireless network access
